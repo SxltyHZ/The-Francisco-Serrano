@@ -1,0 +1,92 @@
+
+
+.ps-hero__wrapper-upper {
+    background-image: url(./assets/ps-hero-bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.ps-hero__wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.ps-hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1.5rem;
+    position: relative;
+    padding: 6rem 0rem;
+}
+
+.ps-hero-right {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    width: 50%;
+}
+
+.ps-hero-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ps-left__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    z-index: 1;
+}
+
+.roofer-face {
+    position: absolute;
+    right: 0;
+    top: 0;
+    mix-blend-mode: multiply;
+    z-index: 0;
+}
+
+
+@media (max-width: 1024px) {
+
+     .ps-hero__wrapper-upper{
+    height: auto;
+    }
+
+    .ps-hero__wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .ps-hero-left {
+        width: 100%;
+    }
+
+    .ps-hero-right {
+        width: 100%;
+    }
+
+    .roofer-face {
+    top: auto;    
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Mobile styles */
+}

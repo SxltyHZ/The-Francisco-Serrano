@@ -1,0 +1,75 @@
+/* Este es un comentario */
+
+body {
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    background-color: #D8E1ED;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.blue-text {
+    color: #003B7A;
+}
+
+.black-text {
+    color: #000;
+}
+
+.white-text {
+    color: white;
+}
+
+.ps-button {
+  padding: 1rem 2rem;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #EC6B00;
+  text-decoration: none;
+  border-radius: 0.5rem;  
+}
+
+.blue-button {
+   background-color: #003B7A; 
+}
+
+.large-header {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+}
+
+.medium-header {
+    font-size: clamp(2rem, 3vw, 3.25rem);
+    font-weight: 700; 
+}
+
+.small-header {
+    font-size: clamp(1.5rem, 2.2vw, 2rem);
+    font-weight: 700;
+}
+
+.xsmall-header {
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    font-weight: 700;
+}
+
+.body-main {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.container {
+    padding-inline: clamp(1.5rem, 5vw, 4rem);
+}
+
+.container-max-width {
+    max-width: 1164px;
+}
+
+/* Global CSS */

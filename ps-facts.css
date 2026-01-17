@@ -1,0 +1,40 @@
+.ps-facts-columns__wrapper-upper {
+    display: flex;
+    justify-content: center;
+}
+
+.ps-facts-columns__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.ps-facts-columns__left, .ps-facts-columns__right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1.5rem;
+}
+
+.ps-facts-columns__header {
+    display: flex;
+    flex-direction: column;
+    background-color: #003B7A;
+    align-items: center;
+    padding: 3rem;
+    border-radius: 1.5rem;
+}
+
+.ps-facts-columns__item {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+}
+
+.ps-facts-columns__item img {
+    width: 56px;
+    height: 56px;
+}
