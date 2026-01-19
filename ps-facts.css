@@ -38,3 +38,21 @@
     width: 56px;
     height: 56px;
 }
+
+.ps-facts-columns__item-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+    .ps-facts-columns__wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ps-facts-columns__left, .ps-facts-columns__right {
+        width: 100%;
+    }
+}
+

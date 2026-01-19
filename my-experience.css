@@ -1,0 +1,113 @@
+.experience__wrapper-upper {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.experience__wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    background-image: url(./assets/my-experience-bg.webp);
+    position: relative;
+}
+
+.experience_container_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 45%;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background: rgba(241, 244, 246, 0.75);
+    box-shadow: 12px 19px 28px 0 rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.career-hl__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.career-hl__item {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.experience_container_right {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 600px;
+}
+
+.experience_container_right img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 1024px) {
+
+    .experience__wrapper-upper {
+        padding-top: 0rem;
+    }
+
+    .experience__wrapper {
+        flex-direction: column;
+        position: relative;
+        padding: 1rem 1rem 0rem 1rem;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .experience_container_left {
+        width: 100%;
+    }
+
+    .experience_container_right {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        bottom: auto;
+        right: auto;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+
+    .experience__wrapper {
+        gap: 1.5rem;
+    }
+
+    .experience_container_left {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .career-hl__wrapper {
+        gap: 1.5rem;
+    }
+
+   .career-hl__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    text-align: center;
+}
+}
