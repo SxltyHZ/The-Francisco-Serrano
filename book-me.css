@@ -1,0 +1,47 @@
+.book-me__wrapper-upper {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0rem;
+}
+
+.book-me__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.book-me__left {
+    display: flex;
+
+    width: 50%;
+}
+
+.book-me__left img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 2rem;
+}
+
+.book-me__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 50%;    
+}
+
+@media (max-width: 1024px) {
+
+
+    .book-me__wrapper {
+        flex-direction: column;
+
+    }
+
+    .book-me__left, .book-me__right {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+}
