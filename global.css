@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+.orange-text {
+    color: #EC6B00;
+}
+
 .ps-button {
   padding: 1rem 2rem;
   justify-content: center;

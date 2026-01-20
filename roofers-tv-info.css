@@ -1,0 +1,51 @@
+.roofers-tv-info__wrapper-upper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.roofers-tv-info__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    gap: 2rem;
+}
+
+.roofers-tv-info__left {
+    display: flex;
+    width: 25%;
+}
+
+.roofers-tv-info__left img {
+ display: flex;
+ width: 100%;
+ height: auto;
+}
+
+.roofers-tv-info__right {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    gap: 1rem;
+    width: 75%;
+    justify-content: center;
+}
+
+.roofers-tv-info__image-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.roofers-tv-info__image-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 2rem;
+}
