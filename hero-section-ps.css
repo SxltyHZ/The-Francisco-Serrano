@@ -6,9 +6,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 90vh;
+    height: auto;
     display: flex;
     justify-content: center;
+    padding-top: 5rem;
 }
 
 .ps-hero__wrapper {
@@ -19,6 +20,7 @@
     gap: 2rem;
     justify-content: space-between;
     align-items: flex-end;
+
 }
 
 .ps-hero-left {
@@ -62,6 +64,12 @@
 
 @media (max-width: 1024px) {
 
+    .ps-left__img img {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
      .ps-hero__wrapper-upper{
     height: auto;
     }
@@ -83,7 +91,13 @@
     top: auto;    
     right: 0;
     bottom: 0;
-    max-width: 100%;
+    width: 50%;
+    max-width: 50%;
+    }
+
+    .roofer-face img {
+        display: flex;
+        width: 100%;
     }
 }
 

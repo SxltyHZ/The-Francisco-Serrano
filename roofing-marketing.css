@@ -1,0 +1,46 @@
+.roofing-marketing__wrapper-upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.roofing-marketing__image-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.roofing-marketing__image-wrapper img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2rem;
+}
+
+.roofing-marketing__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+.flex-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .flex-list {
+        flex-direction: column;
+        gap: 0rem;
+    }
+}

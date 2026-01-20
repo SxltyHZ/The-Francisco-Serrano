@@ -1,0 +1,51 @@
+.book-roofing__wrapper-upper {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.book-roofing__wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.book-roofing__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+    width: 50%;
+    padding: 2rem 0rem;
+}
+
+.book-roofing__right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.book-roofing__right img {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1024px) {
+    .book-roofing__wrapper {
+        flex-direction: column;
+    }
+
+    .book-roofing__left {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .book-roofing__right {
+        width: 100%;
+    }
+}
